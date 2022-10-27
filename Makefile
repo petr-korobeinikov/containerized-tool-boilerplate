@@ -2,6 +2,6 @@ include .env
 
 .DEFAULT_GOAL := build
 
-.PHONY: bouild
+.PHONY: build
 build:
 	docker build --tag ${IMAGE_NAME} .
